@@ -4,6 +4,15 @@ import java.util.TreeMap;
 
 /**
  * Created by Neill on 3/24/2015.
+ *
+ *
+ * RUN THIS PROGRAM THIS WAY ON CONSOLE
+ *
+ * javac TextProcessor.java
+ * java TextProcessor < input.txt > ouput.txt
+ *
+ *
+ *
  */
 public class TextProcessor {
 
