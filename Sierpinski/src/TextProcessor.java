@@ -11,7 +11,7 @@ public class TextProcessor {
         Scanner lectura = new Scanner(System.in);
         String line = lectura.nextLine();
         String entrada = line;
-        while(!line.equals("FIN")){
+        while(lectura.hasNext()){
             line = lectura.nextLine();
             entrada = entrada + " "+ line;
         }
